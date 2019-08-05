@@ -15,3 +15,5 @@ Das Problem liegt in der WebVersion des Kommunikationsgiganten, bei der die vCar
 Dies wurde ziemlich smart eingefädelt: Die Sicherheitsfirma CheckPoint hat festgestellt, dass WhatsApp die Filetypes der vCards nicht überprüft. Der Facebook Sprössling hat keinen Unterschied zwischen .vcf und .exe gemacht, was eine völlig neue Spielwiese mit allerlei Potenzial bot.
 
 WhatsApp weiß mittlerweile über die Schwachstelle bescheid und hat bereits einen Patch veröffentlicht (Ein Rerfresh genügt).
+
+![](/img/wahacked.png)
