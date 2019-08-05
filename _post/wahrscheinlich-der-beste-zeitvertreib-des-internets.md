@@ -6,7 +6,7 @@ title: WAHRSCHEINLICH DER BESTE ZEITVERTREIB DES INTERNETS...
 author: 'Elias Önder '
 date: '2015-9-10 16:58:00'
 img: "/img/meta.png"
-
+pop: 1
 ---
 Manchmal sind die Tage am PC sehr monoton. Wir pendeln zwischen Gmail, YouTube, Reddit und unseren Spreadsheets. Dazwischen poppt mal wieder ein Meme im Facebook Chat auf: Hinführung oben, Pointe unten. Die Prozedur ist gelernt. Die Reaktion darauf nenne ich “offline-lol”: Ein schnelles, kurzes Ausatmen, das nichts mit prustendem Gelächter zu tun hat. Wenn man gut gelaunt ist, bestätigt man seinem Gegenüber noch schnell mit einem “(y)” oder “:D”, dass man das Ganze eh unterhaltsam findet – und die Sache ist durch.
 

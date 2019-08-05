@@ -1,12 +1,12 @@
 ---
 layouts: detail
 tag:
-- 'Tech '
+- Tech 
 title: Sicherheitslücke bei WhatsApp entdeckt!
 author: Elias Önder
 date: '2015-09-09 13:14:00'
 img: "/img/whatsapp.jpg"
-
+pop: 1
 ---
 Wie kürzlich festgestellt wurde, gab es bei dem extrem populären Messenger eine massive Sicherheitslücke.
 

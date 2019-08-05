@@ -1,1 +1,1 @@
-# sozialmediaclub
+# smc
