@@ -14,7 +14,7 @@ layout: home
      <h1>{{ site.post.first.title }}</h1>
     <div class="top-img" style="background-image:url('{{ site.post.first.img }}')"></div>
 </div>
-<div class="tp-border"></div>
+<div class="tp-border"></div> 
 <div>
     {% for post in site.post%}
     {% if post.pop == 1 %}
