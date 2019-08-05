@@ -1,0 +1,30 @@
+---
+---
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <a>Pin It</a>
+            <div>
+                {% for post in site.posts%}
+                    {% if post.pop == 1 %}
+                    <div class="post">
+                        <h2>{{post.title}}</h2>
+                        <p>{{post.date}}</p>
+                        <p>{{post.author}}</p>
+                        <img src="{{post.img}}">
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {{content}}
+        <script src="" async defer></script>
+    </body>
+</html>
