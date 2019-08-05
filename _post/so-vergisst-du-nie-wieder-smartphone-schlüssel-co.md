@@ -3,10 +3,9 @@ layouts: detail
 tag:
 - Tech
 title: So vergisst du nie wieder Smartphone, Schlüssel & Co!
-author: ''
+author: Victoria Ihl
 date: '2015-07-18 '
 img: "/img/vergisst.png"
-published: false
 
 ---
 Oft gehört man zu der Sorte Mensch, die ständig herum läuft, auf der Suche nach dem Handy, dem Schlüssel, der Brille oder der Handtasche. Quasi Kopflos durch die Welt.
