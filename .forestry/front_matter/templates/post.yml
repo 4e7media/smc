@@ -34,4 +34,5 @@ fields:
     maxSize: 250
   label: img
 pages:
+- _post/sicherheitslücke-bei-whatsapp-entdeckt.md
 - _post/wahrscheinlich-der-beste-zeitvertreib-des-internets.md
