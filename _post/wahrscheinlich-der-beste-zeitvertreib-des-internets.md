@@ -2,7 +2,7 @@
 layouts: detail
 tag: []
 title: WAHRSCHEINLICH DER BESTE ZEITVERTREIB DES INTERNETS...
-author: Elias Önder
+author: 'Elias Önder '
 date: '2015-9-10 16:58:00'
 img: "/img/meta.png"
 
