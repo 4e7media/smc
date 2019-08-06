@@ -1,5 +1,5 @@
 ---
-layouts: detail
+layout: detail
 tag:
 - Hangout
 title: WAHRSCHEINLICH DER BESTE ZEITVERTREIB DES INTERNETS...

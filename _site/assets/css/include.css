@@ -63,7 +63,8 @@ body {
     -moz-box-shadow: inset 0px 0px 35px -9px #e1e1e1;
     box-shadow: inset 0px 0px 35px -9px #e1e1e1; }
   body .bottom-content {
-    width: 100%; }
+    width: 100%;
+    display: flex; }
     body .bottom-content .bottom-posts {
       width: 60%;
       display: flex;
@@ -90,3 +91,78 @@ body {
             padding-left: 5px; }
         body .bottom-content .bottom-posts .post img {
           width: 100%; }
+        body .bottom-content .bottom-posts .post a {
+          text-decoration-line: none;
+          color: #00AA4A; }
+  body .side-bar {
+    width: 35%;
+    margin-left: 4%; }
+    body .side-bar h3 {
+      width: 95%;
+      background-color: #00AA4A;
+      color: #ffd900;
+      padding: 0 2.5%;
+      font-size: 19px; }
+    body .side-bar img {
+      width: 100%; }
+    body .side-bar .side-posts .side-post {
+      display: flex;
+      flex-wrap: wrap;
+      border-bottom: solid 1px #e1e1e1; }
+      body .side-bar .side-posts .side-post .side-img {
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        background-position-x: right; }
+      body .side-bar .side-posts .side-post a {
+        text-decoration-line: none; }
+        body .side-bar .side-posts .side-post a h2 {
+          font-size: 13px;
+          color: black;
+          width: 150px;
+          margin-left: 10px; }
+      body .side-bar .side-posts .side-post .side-header {
+        display: flex;
+        font-size: 12px; }
+        body .side-bar .side-posts .side-post .side-header p {
+          border-right: 1px solid #e1e1e1;
+          padding-right: 5px; }
+        body .side-bar .side-posts .side-post .side-header p:nth-child(even) {
+          color: #00AA4A;
+          padding-left: 5px; }
+  body .main-cont {
+    display: flex;
+    flex-wrap: wrap; }
+    body .main-cont .content {
+      width: 60%; }
+      body .main-cont .content h1 {
+        color: #00AA4A;
+        font-size: 51px; }
+      body .main-cont .content img {
+        width: 100%;
+        height: auto; }
+      body .main-cont .content .main-header {
+        display: flex;
+        border-bottom: solid 1px #e1e1e1;
+        margin-top: 10px;
+        font-size: 12px; }
+        body .main-cont .content .main-header p {
+          padding-right: 5px;
+          border-right: 1px solid #e1e1e1;
+          margin-bottom: 0; }
+        body .main-cont .content .main-header p:nth-child(even) {
+          color: #00AA4A;
+          padding-left: 5px; }
+      body .main-cont .content .share {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px; }
+        body .main-cont .content .share a {
+          margin-right: 50px; }
+        body .main-cont .content .share a:nth-child(odd) {
+          background: #1b95e0;
+          color: white;
+          padding: 0 5px; }
+        body .main-cont .content .share a:nth-child(even) {
+          color: #00AA4A; }

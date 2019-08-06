@@ -1,5 +1,5 @@
 ---
-layouts: detail
+layout: detail
 tag:
 - 'Hangout '
 title: Agency 4E7 sucht Digital Media Manager

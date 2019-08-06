@@ -3,6 +3,7 @@ body
     max-width: 950px
     margin: 0 auto
     font-family: "Open Sans"
+    
     .nav
         padding: 5px 0
         a
@@ -66,6 +67,7 @@ body
         box-shadow: inset 0px 0px 35px -9px rgba(225,225,225,1)
     .bottom-content
         width: 100%
+        display: flex
         .bottom-posts
             width: 60%
             display: flex
@@ -92,5 +94,82 @@ body
                         padding-left: 5px
                 img
                     width: 100%
-
+                a
+                    text-decoration-line: none
+                    color: #00AA4A
+    .side-bar
+        width: 35%
+        margin-left: 4%
+        h3
+            width: 95%
+            background-color: #00AA4A
+            color: #ffd900
+            padding: 0 2.5%
+            font-size: 19px
+                
+        img
+            width: 100%
+        .side-posts
+            .side-post
+                display: flex
+                flex-wrap: wrap
+                border-bottom: solid 1px #e1e1e1
+                .side-img
+                    width: 100px
+                    height: 100px
+                    background-size: cover
+                    background-position-x: right
+                a 
+                    text-decoration-line: none
+                            
+                    h2
+                        font-size: 13px
+                        color: black
+                        width: 150px
+                        margin-left: 10px
+                .side-header
+                    display: flex
+                    font-size: 12px
+                    p
+                        border-right: 1px solid #e1e1e1
+                        padding-right: 5px
+                    p:nth-child(even)
+                        color: #00AA4A
+                        padding-left: 5px
+    .main-cont
+        display: flex
+        flex-wrap: wrap
+        .content
+            width: 60%
+            h1
+                color: #00AA4A
+                font-size: 51px
+            img
+                width: 100%
+                height: auto
+            .main-header
+                display: flex
+                border-bottom: solid 1px #e1e1e1
+                margin-top: 10px
+                font-size: 12px
+                p
+                    padding-right: 5px
+                    border-right: 1px solid #e1e1e1
+                    margin-bottom: 0
+                p:nth-child(even)
+                        color: #00AA4A
+                        padding-left: 5px
+            .share
+                width: 100%
+                display: flex
+                justify-content: center
+                margin-top: 10px
+                a
+                    margin-right: 50px
+                a:nth-child(odd)
+                    background: #1b95e0 
+                    color: white
+                    padding: 0 5px
+                a:nth-child(even)
+                    color: #00AA4A
 

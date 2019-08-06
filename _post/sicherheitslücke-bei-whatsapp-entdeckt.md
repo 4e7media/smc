@@ -1,5 +1,5 @@
 ---
-layouts: detail
+layout: detail
 tag:
 - Tech 
 title: Sicherheitslücke bei WhatsApp entdeckt!

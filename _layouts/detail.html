@@ -2,29 +2,53 @@
 ---
 <!DOCTYPE html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <a>Pin It</a>
-            <div>
-                {% for post in site.posts%}
-                    {% if post.pop == 1 %}
-                    <div class="post">
-                        <h2>{{post.title}}</h2>
-                        <p>{{post.date}}</p>
-                        <p>{{post.author}}</p>
-                        <img src="{{post.img}}">
+{% include head.html%}
+
+<body>
+    {% include header.html%}
+    <div class="main-cont">
+        
+        
+        <div class="content">
+            <div class="main-header">
+                <p>{{page.date | date_to_long_string }}</p>
+                <p>{{page.tag}}</p>
+            </div>
+            <div class="share">
+                <a>Twittern</a>
+                <a>Pin It</a>
+            </div>
+            <h1>{{page.title | capitalize}}</h1>
+            <img src="{{page.img}}">
+            {{content}}
+        </div>
+        <div class="side-bar">
+            <div class="fb-cont">
+                <h3>FACEBOOK</h3>
+                <a href="https://www.facebook.com/smClubAustria/"><img src="/img/fb.png"></a>
+            </div>
+            <div class="side-posts">
+                <h3>MOST POPULAR ON SMCA</h3>
+                {% for post in site.post%}
+                {% if post.pop == 1 %} 
+                <div class="side-post">
+                    <a href="{{post.url}}">
+                        <div class="side-img" style="background-image:url('{{post.img}}')"></div>
+                    </a>
+                    <a href="{{post.url}}">
+                        <h2>{{post.title | capitalize}}</h2>
+                    </a>
+                    <div class="side-header">
+                        <p>{{post.date | date_to_long_string }}</p>
+                        <p>{{post.tag | capitalize}}</p>
                     </div>
-                    {% endif %}
+                </div>
+                {% endif %}
                 {% endfor %}
             </div>
-        {{content}}
-        <script src="" async defer></script>
-    </body>
+        </div>
+    </div>
+    <script src="" async defer></script>
+</body>
+
 </html>

@@ -1,5 +1,5 @@
 ---
-layouts: detail
+layout: detail
 tag:
 - Social Media
 title: Die beliebtesten Werbevideos auf Facebook
