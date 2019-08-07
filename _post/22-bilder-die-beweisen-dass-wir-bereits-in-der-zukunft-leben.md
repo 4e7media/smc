@@ -1,7 +1,7 @@
 ---
 layout: detail
 tag:
-- 'Hangout '
+- Hangout
 title: 22 Bilder, die beweisen, dass wir bereits in der Zukunft leben
 author: Alena Spitzer
 date: '2015-08-07 11:35:00'

@@ -12,7 +12,12 @@
 </head>
 
 <body>
-    <a href="index.html"><img src="/img/header.png"></a>
+    <div class="search-area">
+    <input type="text" id="search-input" placeholder="search posts..">
+    <br />
+    <div id="results-container"></div>
+</div>
+<a href="index.html"><img class="header-img" src="/img/header.png"></a>
 <div class="nav">
     <a>Social Media</a>
     <a>Campaingns</a>
@@ -26,7 +31,7 @@
         <div class="content">
             <div class="main-header">
                 <p>03 August 2015</p>
-                <p>Hangout </p>
+                <p>Hangout</p>
             </div>
             <div class="share">
                 <a>Twittern</a>
@@ -162,7 +167,7 @@
                     </a>
                     <div class="side-header">
                         <p>09 September 2015</p>
-                        <p>["tech"]</p>
+                        <p>Tech</p>
                     </div>
                 </div>
                 
@@ -177,7 +182,7 @@
                     </a>
                     <div class="side-header">
                         <p>10 September 2015</p>
-                        <p>["hangout"]</p>
+                        <p>Hangout</p>
                     </div>
                 </div>
                 
@@ -187,7 +192,7 @@
             </div>
         </div>
     </div>
-    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>  
     <script src="" async defer></script>
 </body>
 

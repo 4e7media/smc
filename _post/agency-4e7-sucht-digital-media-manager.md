@@ -1,7 +1,7 @@
 ---
 layout: detail
 tag:
-- 'Hangout '
+- Hangout
 title: Agency 4E7 sucht Digital Media Manager
 author: Elias Önder
 date: '2015-08-03 16:12:00'

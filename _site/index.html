@@ -12,7 +12,12 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
 </head>
     <body>
-        <p><a href="index.html"><img src="/img/header.png" /></a></p>
+        <div class="search-area">
+    <input type="text" id="search-input" placeholder="search posts.." />
+    <br />
+    <div id="results-container"></div>
+</div>
+<p><a href="index.html"><img class="header-img" src="/img/header.png" /></a></p>
 <div class="nav">
     <a>Social Media</a>
     <a>Campaingns</a>
@@ -28,7 +33,7 @@
         <h4>Victoria ihl</h4>
     </div>
     <h1>DO IT FOR DENMARK!</h1>
-    <div class="top-img" style="background-image:url('/img/denmark.png')"></div>
+    <img class="top-img" src="/img/denmark.png" />
 </div>
 <div class="tp-border"></div>
 <div class="pop-posts">
@@ -37,9 +42,9 @@
         <h2>Wahrscheinlich der beste zeitvertreib des internets...</h2>
         <div class="pop-header">
             <p>10 September 2015</p>
-            <p>["hangout"]</p>
+            <p>Hangout</p>
         </div>
-        <div class="pop-img" style="background-image:url('/img/meta.png')"></div>
+        <img class="pop-img" src="/img/meta.png" />
         <a href="/post/wahrscheinlich-der-beste-zeitvertreib-des-internets">Mehr...</a>
     </div>
     
@@ -47,9 +52,9 @@
         <h2>Sicherheitslücke bei whatsapp entdeckt!</h2>
         <div class="pop-header">
             <p>09 September 2015</p>
-            <p>["tech"]</p>
+            <p>Tech</p>
         </div>
-        <div class="pop-img" style="background-image:url('/img/whatsapp.jpg')"></div>
+        <img class="pop-img" src="/img/whatsapp.jpg" />
         <a href="/post/sicherheitsl%C3%BCcke-bei-whatsapp-entdeckt">Mehr...</a>
     </div>
     
@@ -62,7 +67,7 @@
             <h2>22 Bilder, die beweisen, dass wir bereits in der Zukunft leben</h2>
             <div class="bottom-header">
                 <p>07 August 2015</p>
-                <p>Hangout </p>
+                <p>Hangout</p>
             </div>
             <img src="/img/msd.png" />
             <a href="/post/22-bilder-die-beweisen-dass-wir-bereits-in-der-zukunft-leben">Mehr...</a>
@@ -72,7 +77,7 @@
             <h2>Agency 4E7 sucht Digital Media Manager</h2>
             <div class="bottom-header">
                 <p>03 August 2015</p>
-                <p>Hangout </p>
+                <p>Hangout</p>
             </div>
             <img src="/img/stellenanzeigen.png" />
             <a href="/post/agency-4e7-sucht-digital-media-manager">Mehr...</a>
@@ -103,7 +108,7 @@
                 <a href="/post/wahrscheinlich-der-beste-zeitvertreib-des-internets"><h2>Wahrscheinlich der beste zeitvertreib des internets...</h2></a>
                 <div class="side-header">
                     <p>10 September 2015</p>
-                    <p>["hangout"]</p>
+                    <p>Hangout</p>
                 </div>
             </div>
             
@@ -114,7 +119,7 @@
                 <a href="/post/sicherheitsl%C3%BCcke-bei-whatsapp-entdeckt"><h2>Sicherheitslücke bei whatsapp entdeckt!</h2></a>
                 <div class="side-header">
                     <p>09 September 2015</p>
-                    <p>["tech"]</p>
+                    <p>Tech</p>
                 </div>
             </div>
             
@@ -123,7 +128,15 @@
     </div>
 </div>
 
-        <script src="https://unpkg.com/lunr/lunr.js"></script>
+        <script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>   
         <script src="" async defer></script>
+            <!-- Configuration -->
+            <script>
+            SimpleJekyllSearch({
+              searchInput: document.getElementById('search-input'),
+              resultsContainer: document.getElementById('results-container'),
+              json: '/search.json'
+            })
+            </script>
     </body>
 </html>

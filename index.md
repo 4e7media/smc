@@ -13,7 +13,7 @@ layout: home
         <h4>{{ sorted.first.author | capitalize }}</h4>
     </div>
     <h1>{{ sorted.first.title }}</h1>
-    <div class="top-img" style="background-image:url('{{ sorted.first.img }}')"></div>
+    <img class="top-img" src="{{ sorted.first.img }}">
 </div>
 <div class="tp-border"></div>
 <div class="pop-posts">
@@ -22,9 +22,9 @@ layout: home
         <h2>{{post.title | capitalize}}</h2>
         <div class="pop-header">
             <p>{{post.date | date_to_long_string }}</p>
-            <p>{{post.tag | capitalize}}</p>
+            <p>{{post.tag }}</p>
         </div>
-        <div class="pop-img" style="background-image:url('{{post.img}}')"></div>
+        <img class="pop-img" src="{{post.img}}">
         <a href="{{post.url}}">Mehr...</a>
     </div>
     {% endfor %}
@@ -58,7 +58,7 @@ layout: home
                 <a href="{{post.url}}"><h2>{{post.title | capitalize}}</h2></a>
                 <div class="side-header">
                     <p>{{post.date | date_to_long_string }}</p>
-                    <p>{{post.tag | capitalize}}</p>
+                    <p>{{ post.tag }}</p>
                 </div>
             </div>
             {% endif %}
